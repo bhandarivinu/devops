@@ -1,6 +1,5 @@
 FROM openjdk:11
 
-RUN gradle assemble
 COPY target/*.jar devops.jar
 
 EXPOSE 8080
